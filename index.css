@@ -1,0 +1,47 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(cardback.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1{
+    color :goldenrod;
+
+}
+
+
+#message-el{
+   font-style: italic;
+}
+p{
+    font-size:30px ;
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 252, 56);
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all .3s ease;
+    box-shadow: rgb(201, 173, 46) 0px 10px 0px 0px;
+    color: hsl(188, 78%, 13%);
+    margin-bottom: 4px;
+   }
+    
+   button:hover {
+    box-shadow: rgb(201, 188, 46) 0px 7px 0px 0px;
+   }
+   
+   button:active {
+    background-color: rgb(255, 56, 86);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+   }
